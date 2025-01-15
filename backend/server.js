@@ -14,7 +14,7 @@ app.use("/uploads", express.static(path.join(__dirname, "uploads")));
 
 // MongoDB Connection
 mongoose
-  .connect("mongodb+srv://aswin:pass@mongo-testing.hvlre.mongodb.net/?retryWrites=true&w=majority&appName=mongo-testing", {
+  .connect("Your mongodb cluster connection url", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
